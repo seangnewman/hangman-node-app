@@ -1,0 +1,27 @@
+{
+  "name": "hangman-node-app",
+  "version": "1.0.0",
+  "description": "Hangman game for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seangnewman/hangman-node-app.git"
+  },
+  "keywords": [
+    "hangman",
+    "node",
+    "prompt"
+  ],
+  "author": "newmanuevers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seangnewman/hangman-node-app/issues"
+  },
+  "homepage": "https://github.com/seangnewman/hangman-node-app#readme",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}
