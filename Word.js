@@ -6,7 +6,7 @@ var Letter = require('./Letter.js');
 ***************************************************************************/
 var Word = function(word){
   //Create an array of characters
-  this._word = word.split('');
+  this._word = word.split('').join('');
 
   // Create an array of letter objects
   this._arrayOfCharacters=[];
