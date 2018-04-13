@@ -1,4 +1,10 @@
 # hangman-node-app
+## Week 11 Homework Assignment
+
+Create at least 3 files
+- Letter.js
+- Word.js
+- Index.js
 
 
 
