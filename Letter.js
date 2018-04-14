@@ -2,7 +2,7 @@
 //Letter Constructor, base object (not class, no inheritance in js)
 ***************************************************************************/
 var Letter = function(character){
-  this._character = character;  //Initialize object with character
+  this._character = character.toUpperCase();  //Initialize object with character
   //Initialize value to false
   this._guessed = false;
     
@@ -16,6 +16,7 @@ var Letter = function(character){
   this._evaluateGuess = function(theCharacter){
   //Set guessed flag 
     this._guessed = theCharacter === this._character? true: false;
+    return this._guessed
    }
 };
  

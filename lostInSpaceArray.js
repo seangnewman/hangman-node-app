@@ -25,8 +25,8 @@ var lostInSpaceArray = [
          Answer : "Kurt Russell"
      },
      {
-         Question : "What is the name of the Robot?",
-         Answer : "B9"
+         Question : "The Robot was created by the same person that created Robby the Robot.  What is the creator's name?",
+         Answer : "Robert Kinoshita"
      },
      {
          Question: "In the (infamous) episode 'Great Vegetable Rebellion' Dr. Smith is turned into which vegetable?",
@@ -47,7 +47,36 @@ var lostInSpaceArray = [
      {
          Question : "What actor also appeared in three episodes of 'The Twilight Zone'?",
          Answer : "Billy Mummy"
-     }
+     },
+     {
+        Question : "What Space Adventure show was pitched to CBS but declined due to 'Lost in Space'?",
+        Answer : "Star Trek"
+    },
+    {
+        Question : "The computers used in 'Lost in Space' are of what brand (yes, they were authentic)?",
+        Answer : "Burroughs"
+    },
+    {
+        Question : "Who was the voice of the Robot?",
+        Answer : "Dick Tufield"
+    },
+    {
+        Question : "The spaceship is referred to as the Jupiter, but what was the original name?",
+        Answer : "Gemini"
+    },
+    {
+        Question : "This character from 'Lost in Space' was ranked on the list of '25 Greatest Sci-Fi Legends' (TV Guide, they are still around?)?",
+        Answer : "The Robot"
+    },
+    {
+        Question : "Angela Cartwright (Penny) starred in what early television show?",
+        Answer : "Make Room for Daddy"
+    }
+
+
+
+
+
 
 ]
 
