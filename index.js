@@ -7,7 +7,6 @@ var colors= require("colors/safe");
 var Word = require('./Word')
 var lostInSpaceArray = require('./lostInSpaceArray');
 
-
 /************************************************************************************** */
 var introductionString = `*************** Lost in Space Reboot Week! *******************\n
 This week, Netflix is rebooting the classic (and many times not so classic) Irwin\n
@@ -64,10 +63,6 @@ var lisGame = {
        required : true
     };
 
-    
-
-    
-
     lisString = this.lisWord;
     console.log(this.lisObject.Question);
     //console.log("Answer = " + lisString._currentString()); 
@@ -79,9 +74,7 @@ var lisGame = {
     /************************************************************************************ */
     var self = this;
 
-
     prompt.get(promptObj, function(error, result){
-
         var playAgainObj = {
             name: 'playAgain',
             description : colors.green('Play Again (y/n)?'),
@@ -98,8 +91,6 @@ var lisGame = {
         var resultString = lisWordPrompt === true?"Congrats!, you have a match.":"Sorry, no match found.";
         console.log(resultString + " " + self.lisWord._currentString() + "( " + self.remainingGuesses + " guesses remaining )");
 
-        
-
         //Need a test to see if the number of guesses exceeds maximum
         if(self.remainingGuesses == 0 ){
           process.stdout.write('\033c');
@@ -108,7 +99,6 @@ var lisGame = {
             self.lisStart();
             return;
           });
-         
           
         }else if(self.lisMatch() === true){
           process.stdout.write('\033c');
@@ -125,7 +115,6 @@ var lisGame = {
           
         }else{
           //Lets continue game;
-          
           self.lisPrompt();
         }
       }else{
@@ -136,11 +125,11 @@ var lisGame = {
       }
        
     });
-
-    
+ 
    }
 };
 
+//Game Entry
 lisGame.lisStart();
  
  
