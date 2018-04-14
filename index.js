@@ -24,7 +24,7 @@ And I will watch the reboot (I'm hopeless)\n\n`;
 console.log(introductionString);
 prompt.start();
 
-//Lets define the game object based on the instruction provided
+//Lets define the game object based on the instruction prtovided
 var lisGame = {
   lisPreviouslyGuessed : [], //Array to prevent duplicate gueses
   //Program entry
